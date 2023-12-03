@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d9edf7;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .product {
+            border: 1px solid #3c763d;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            margin: 15px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            max-width: 40%;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            margin-bottom: 10px;
+            color: #3c763d;
+        }
+        .product p {
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .product .price {
+            font-weight: bold;
+            color: #3c763d;
+        }
+        .button {
+            background-color: #3c763d;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #2e5d34;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Eco-Friendly Products</h1>
+        <div class="product">
+            <img src="C:\Users\Lenovo\Desktop\Cloud\Ecommerce\images\Baking-Soda.jpg" alt="Product 1" style="max-width: 40%;">
+            <h3>Baking Soda</h3>
+            <p>Product 1 description</p>
+            <p class="price">Price: $99.99</p>
+            <button class="button" id="product1">Add to Cart</button>
+        </div>
+        <!-- Add more product sections as needed -->
+
+        <div class="product">
+            <img src="C:\Users\Lenovo\Desktop\Cloud\Ecommerce\images\Castille-Soap.jpg" alt="Product 2" style="max-width: 40%;">
+            <h3>Castille Soap</h3>
+            <p>Product 2 description</p>
+            <p class="price">Price: $129.99</p>
+            <button class="button" id="product2">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\Lenovo\Desktop\Cloud\Ecommerce\images\Detergent-Pods.jpg" alt="Product 3" style="max-width: 40%;">
+            <h3>Detergent Pods</h3>
+            <p>Product 2 description</p>
+            <p class="price">Price: $129.99</p>
+            <button class="button" id="product3">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\Lenovo\Desktop\Cloud\Ecommerce\images\Detergent-Strips.jpg" alt="Product 4" style="max-width: 40%;">
+            <h3>Detergent Strips</h3>
+            <p>Product 2 description</p>
+            <p class="price">Price: $129.99</p>
+            <button class="button" id="product4">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\Lenovo\Desktop\Cloud\Ecommerce\images\Floor-Cleaner.jpg" alt="Product 5" style="max-width: 40%;">
+            <h3>Floor Cleaner</h3>
+            <p>Product 2 description</p>
+            <p class="price">Price: $129.99</p>
+            <button class="button" id="product5">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\Lenovo\Desktop\Cloud\Ecommerce\images\Rug-Shampoo.jpg" alt="Product 6" style="max-width: 40%;">
+            <h3>Rug Shampoo</h3>
+            <p>Product 2 description</p>
+            <p class="price">Price: $129.99</p>
+            <button class="button" id="product6">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\Lenovo\Desktop\Cloud\Ecommerce\images\Tile-Cleaner.jpg" alt="Product 7" style="max-width: 40%;">
+            <h3>Tile Cleaner</h3>
+            <p>Product 2 description</p>
+            <p class="price">Price: $129.99</p>
+            <button class="button" id="product7">Add to Cart</button>
+        </div>
+    </div>
+    <script>
+        function handleViewCart() {
+            // Replace '/your-cart-page.html' with the actual path to your cart page
+            window.location.href = 'file:///C:/Users/Lenovo/Desktop/Cloud/Ecommerce/cart.html';
+        }
+    </script>
+        <button onclick="handleViewCart()">View Cart</button>
+    
+    
+</body>
+</html>
